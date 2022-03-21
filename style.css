@@ -1,0 +1,120 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: lightgray;
+}
+
+.header {
+  background-color: gray;
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.navbar {
+  background-color: black;
+  color: white;
+}
+
+/*Layout container*/
+.container {
+  height: 80vh;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* left column */
+.left-col {
+  background-color: gray;
+  border: coral 2px solid;
+  padding: 10px;
+
+  color: white;
+  font-size: 16px;
+}
+
+ul {
+  list-style: square;
+  color: coral;
+}
+
+.left-col a:link {
+  text-decoration: none;
+  color: coral;
+}
+
+.left-col a:hover,
+.left-col a:active {
+  text-decoration: underline;
+}
+.left-col a:visited {
+  color: red;
+}
+/* END of left column */
+
+/* Center Column */
+.center-col {
+  background-color: gray;
+  border: coral 2px solid;
+  padding: 10px;
+
+  overflow: scroll;
+  color: white;
+  font-size: 16px;
+}
+
+.center-img {
+  display: flex;
+  justify-content: center;
+}
+
+.center-col img {
+  border: 5px ridge darkgray;
+  width: 90%;
+}
+/* END of Center Column */
+
+/* right column */
+.right-col {
+  background-color: gray;
+  border: coral 2px solid;
+  padding: 10px;
+
+  overflow: scroll;
+  color: white;
+  font-size: 16px;
+}
+/*END of right column*/
+
+/*FOOTER*/
+.footer {
+  background-color: gray;
+  margin-top: 20px;
+  color: white;
+  font-size: 16px;
+}
+/*END OF Footer
+
+/*flexbox layout*/
+/*.container {
+  display: flex;
+  gap: 20px;
+}
+.left-col {
+  flex: 1;
+}
+.center-col {
+  flex: 2;
+}
+.right-col {
+  flex: 1;
+}
+/* END of flexbox*/
+
+/*GRID layout*/
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 20px;
+}
+/* END of GRID layout*/
